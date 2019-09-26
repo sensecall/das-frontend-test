@@ -1,0 +1,4 @@
+<a href="{{params.href}}" class="das-favourites-link govuk-body {{- ' ' + params.classes if params.classes}}" {%- for attribute, value in params.attributes -%} {{ attribute }}="{{ value }}"{% endfor %}>
+  <span class="das-favourites-link__icon"><img src="https://das-at-frnt-end.azureedge.net/images/favourite-unchecked-black.svg" alt=""></span>
+  <span class="das-favourites-link__text">{{params.text}}</span>
+</a>

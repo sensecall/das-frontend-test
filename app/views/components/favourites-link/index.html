@@ -1,0 +1,28 @@
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+<div class="govuk-grid-row">
+
+  <div class="govuk-grid-column-full">
+
+    {{ govukBackLink({
+      text: "Back",
+      href: "../"
+    }) }}
+
+    <h1 class="govuk-heading-xl">
+      <span class="govuk-caption-xl">Components</span> Favourites link
+    </h1>
+
+    {{ dasFavouritesLink({
+      text: "Lorem ipsum ",
+      href: "#"
+    }) }}
+
+
+  </div>
+
+</div>
+
+{% endblock %}

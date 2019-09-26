@@ -1,0 +1,41 @@
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+<div class="govuk-grid-row">
+
+  <div class="govuk-grid-column-full">
+
+    {{ govukBackLink({
+      text: "Back",
+      href: "../"
+    }) }}
+
+    <h1 class="govuk-heading-xl">
+      <span class="govuk-caption-xl">Components</span> Employer header
+    </h1>
+
+    {{ dasEmployerHeader({
+      title: "Lorem ipsum",
+      caption: "Account ID: 8238AA"
+    }) }}
+
+    <h2 class="govuk-heading-m govuk-!-margin-top-8">
+      With favourites link
+    </h2>
+
+    {{ dasEmployerHeader({
+      title: "Lorem ipsum",
+      caption: "Account ID: 8238AA",
+      favourites:
+      {
+        text: "sdksd",
+        href: "#"
+      }
+    }) }}
+    
+  </div>
+
+</div>
+
+{% endblock %}
