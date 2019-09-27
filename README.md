@@ -2,17 +2,17 @@
 
 DAS Frontend contains the code you need to start building user interfaces for UK Apprenticeship service government services.
 
-See live examples of DAS Frontend components, and guidance on when to use them in your service, in the [MOJ Design System](https://moj-design-system.herokuapp.com/).
+See live examples of DAS Frontend components, and guidance on when to use them in your service, in the [DAS Design System](https://moj-design-system.herokuapp.com/).
 
 ## Contact the team
 
-DAS Frontend is maintained by the MOJ Design System team. If you need support email the [Design System team](mailto:design-system@digital.justice.gov.uk).
+DAS Frontend is maintained by the DAS Design System team. If you need support email the [Design System team](mailto:design-system@digital.justice.gov.uk).
 
 ## Quick start
 
 We recommend [installing DAS Frontend using node package manager (npm)](docs/installation/installing-with-npm.md).
 
-Once installed, you will be able to use the code from the examples in the [MOJ Design System](https://moj-design-system.herokuapp.com/) in your service.
+Once installed, you will be able to use the code from the examples in the [DAS Design System](https://moj-design-system.herokuapp.com/) in your service.
 
 ## Browser support
 
