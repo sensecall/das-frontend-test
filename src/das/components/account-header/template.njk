@@ -1,0 +1,19 @@
+<div class="das-account-header das-account-header--{{- params.type if params.type}} {{- ' ' + params.classes if params.classes}}" {%- for attribute, value in params.attributes -%} {{ attribute }}="{{ value }}"{% endfor %}>
+    <div class="govuk-width-container">
+        <p class="das-account-header__title">{{params.title}}</p>
+
+        <nav class="das-account-header__navigation" id="user-nav">
+            <ul class="das-account-header__navigation-list" role="menu">
+                <li role="menuitem" class="das-account-header__navigation-list-item">
+                    <a href="#" class="das-account-header__navigation-link">Provider account</a>
+                </li>
+                <li role="menuitem" class="das-account-header__navigation-list-item">
+                    <a href="#" class="das-account-header__navigation-link">Notification settings</a>
+                </li>
+                <li role="menuitem" class="das-account-header__navigation-list-item">
+                    <a href="#" class="das-account-header__navigation-link">Sign out</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

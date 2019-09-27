@@ -1,14 +1,12 @@
 {%- from "das/components/favourites-link/macro.njk" import dasFavouritesLink %}
 
-<section class="das-account-header {{- ' ' + params.classes if params.classes}}" {%- for attribute, value in params.attributes -%} {{ attribute }}="{{ value }}"{% endfor %}>
-	<h1 class="govuk-heading-m das-account__title">{{params.caption}}</h1>
-	<h2 class="govuk-heading-l das-account__account-name">{{params.title}}</h2>
+<section class="das-employer-header {{- ' ' + params.classes if params.classes}}" {%- for attribute, value in params.attributes -%} {{ attribute }}="{{ value }}"{% endfor %}>
+	<h1 class="govuk-heading-m das-employer-header__title">{{params.caption}}</h1>
+	<h2 class="govuk-heading-l das-employer-header__account-name">{{params.title}}</h2>
 	{% if params.favourites %}
 	{{dasFavouritesLink({
 		text: params.favourites.text,
 		href: params.favourites.href
 	})}}
 	{% endif %}
-
-	
 </section>

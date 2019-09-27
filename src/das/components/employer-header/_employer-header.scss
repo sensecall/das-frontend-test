@@ -3,7 +3,7 @@
    ========================================================================== */
 // Description:
 
-.das-account-header {
+.das-employer-header {
   @include govuk-font($size: 19);
   color: #fff;
   padding: 5px 0;
@@ -24,7 +24,7 @@
   }
 }
 
-.das-account__title {
+.das-employer-header__title {
   font-weight: $govuk-font-weight-regular;
   color: $govuk-secondary-text-colour;
   margin-bottom: 5px;
@@ -33,7 +33,7 @@
   }
 }
 
-.das-account__account-name {
+.das-employer-header__account-name {
   margin: 0;
   word-wrap: break-word;
   word-break: break-all;

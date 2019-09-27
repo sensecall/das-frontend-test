@@ -1,0 +1,38 @@
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+<div class="govuk-grid-row">
+
+  <div class="govuk-grid-column-full">
+
+    {{ govukBackLink({
+      text: "Back",
+      href: "../"
+    }) }}
+
+    <h1 class="govuk-heading-xl">
+      <span class="govuk-caption-xl">Components</span> Account header
+    </h1>
+
+    <h2 class="govuk-heading-m">
+      Employer
+    </h2>
+    {{ dasAccountHeader({
+      title: "Lorem ipsum",
+      type: "employer"
+    }) }}
+
+    <h2 class="govuk-heading-m govuk-!-margin-top-9">
+      Provider
+    </h2>
+    {{ dasAccountHeader({
+      title: "Lorem ipsum",
+      type: "provider"
+    }) }}
+  
+  </div>
+
+</div>
+
+{% endblock %}

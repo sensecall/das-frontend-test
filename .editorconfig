@@ -12,7 +12,7 @@ trim_trailing_whitespace = false
 continuation_indent_size = 8
 
 [*.scss]
-indent_size = 2
+indent_size = 4
 indent_style = space
 charset = utf-8
 end_of_line = lf

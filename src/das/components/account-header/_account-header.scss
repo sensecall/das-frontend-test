@@ -1,0 +1,181 @@
+/* ==========================================================================
+   #ACCOUNT HEADER
+   ========================================================================== */
+
+   // Description:
+
+   .das-account-header {
+    @include govuk-font($size: 19);
+    color: #fff;
+    padding: 5px 0;
+
+    &--provider {
+      background: $das-provider-colour;
+    }
+
+    &--employer {
+      background: $das-employer-colour;
+    }
+
+    @include govuk-media-query($from: tablet) {
+      padding: 0;
+    }
+    
+    & > .govuk-width-container {
+      @include govuk-clearfix;
+    }
+
+    .das-account-header__title {
+      color: #fff;
+      margin: 0 $govuk-gutter-half * -1;
+      padding: 10px $govuk-gutter-half;
+      font-weight: $govuk-font-weight-bold;
+      
+      @include govuk-media-query($from: tablet) {
+        float: left;
+        padding: 8px $govuk-gutter-half;
+      }
+    }
+
+    // Description: User specific links in the header. 'Help', 'Settings' etc
+
+    .das-account-header__navigation {
+      margin: 0 $govuk-gutter-half * -1;
+      @include govuk-media-query($from: tablet) {
+        float: right;
+      }
+    }
+
+    .das-account-header__navigation-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .das-account-header__navigation-list-item {
+      @include govuk-media-query($from: tablet) {
+        float: left;
+        position: relative;
+      }
+    }
+
+    .das-account-header__navigation-link {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      padding: 10px 15px;
+      font-size: 16px;
+      border: 1px solid transparent;
+      &:hover {
+        text-decoration: underline;
+      }
+      .das-account-header__navigation__list-item--has-sub-menu & {
+        padding-right: 32px;
+        position: relative;
+        &:after {
+          position: absolute;
+          right: 15px;
+          top: 17px;
+          @include triangle-equilateral(down, 8px, #fff);
+          .govuk-header & {
+            @include govuk-media-query($from: tablet) {
+              top: 20px;
+            }
+          }
+        }
+      }
+      .das-account-header__navigation__sub-menu--open & {
+        &:after {
+          top: 15px;
+          @include triangle-equilateral(up, 8px, $govuk-link-colour);
+          .govuk-header & {
+            @include govuk-media-query($from: tablet) {
+              top: 18px;
+            }
+          }
+        }
+      }
+      .govuk-header & {
+        @include govuk-media-query($from: tablet) {
+          position: relative;
+          margin-top: -10px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+      }
+    }
+
+    .das-account-header__navigation__sub-menu {
+      // background: govuk-colour("grey-1");
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+      z-index: 1;
+      @include govuk-media-query($from: desktop) {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        padding: 10px 20px;
+        background: #fff;
+        margin-top: -1px;
+        border: 1px solid $govuk-border-colour;
+      }
+    }
+
+    .das-account-header__navigation__sub-menu-list-item {
+      @include govuk-media-query($from: desktop) {
+        border-bottom: 1px solid $govuk-border-colour;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+
+    .das-account-header__navigation__sub-menu-link {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      padding: 8px 15px;
+      font-size: 15px;
+      &:hover {
+        text-decoration: underline;
+      }
+      @include govuk-media-query($from: desktop) {
+        color: $govuk-link-colour;
+        text-decoration: underline;
+        white-space: nowrap;
+        font-size: inherit;
+        margin: 0 -15px;
+        padding: 10px 15px;
+      }
+    }
+
+    .das-account-header__navigation__sub-menu--open > a {
+      background: #fff;
+      color: $govuk-link-colour;
+      position: relative;
+      z-index: 2;
+      border: 1px solid $govuk-border-colour;
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  .das-account__title {
+    font-weight: $govuk-font-weight-regular;
+    color: $govuk-secondary-text-colour;
+    margin-bottom: 5px;
+    @include govuk-media-query($from: tablet) {
+      margin-bottom: 0;
+    }
+  }
+
+  .das-account__account-name {
+    margin: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+    max-width: 100%;
+    @include govuk-media-query($from: desktop) {
+      font-size: 48px;
+    }
+  }
