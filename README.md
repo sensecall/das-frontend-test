@@ -1,6 +1,6 @@
 # Apprenticeship service Frontend
 
-DAS Frontend contains the code you need to start building user interfaces for UK Apprenticeship service government services.
+DAS Frontend contains the code you need to start building user interfaces for Apprenticeship service government services.
 
 See live examples of DAS Frontend components, and guidance on when to use them in your service, in the [DAS Design System](https://moj-design-system.herokuapp.com/).
 
