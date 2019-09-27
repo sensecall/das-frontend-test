@@ -1,6 +1,6 @@
 {
   "nunjucksPaths": ["/"],
-  "scripts": ["/moj/all.js"],
-  "assets": ["/moj/assets"],
-  "sass": ["/moj/all.scss"]
+  "scripts": ["/das/all.js"],
+  "assets": ["/das/assets"],
+  "sass": ["/das/all.scss"]
 }

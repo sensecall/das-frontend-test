@@ -2,15 +2,15 @@ const gulp = require('gulp');
 
 gulp.task('watch-sass', (done) => {
   gulp.watch([
-    'src/moj/assets/images/**',
-    'src/moj/settings/**/*.scss',
-    'src/moj/objects/**/*.scss',
-    'src/moj/helpers/**/*.scss',
-    'src/moj/utilities/**/*.scss',
-    'src/moj/components/**/*.scss',
-    'src/moj/components/**/*.js',
-    'src/moj/namespace.js',
-    'src/moj/helpers.js',
+    'src/das/assets/images/**',
+    'src/das/settings/**/*.scss',
+    'src/das/objects/**/*.scss',
+    'src/das/helpers/**/*.scss',
+    'src/das/utilities/**/*.scss',
+    'src/das/components/**/*.scss',
+    'src/das/components/**/*.js',
+    'src/das/namespace.js',
+    'src/das/helpers.js',
     'app/assets/sass/*.scss'
   ], gulp.series('sass', 'copy-component-javascript', 'copy-namespace', 'copy-helpers'));
   done();

@@ -1,4 +1,4 @@
-{%- from "moj/components/favourites-link/macro.njk" import dasFavouritesLink %}
+{%- from "das/components/favourites-link/macro.njk" import dasFavouritesLink %}
 
 <section class="das-account-header {{- ' ' + params.classes if params.classes}}" {%- for attribute, value in params.attributes -%} {{ attribute }}="{{ value }}"{% endfor %}>
 	<h1 class="govuk-heading-m das-account__title">{{params.caption}}</h1>

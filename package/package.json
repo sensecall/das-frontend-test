@@ -1,30 +1,24 @@
 {
-  "name": "@ministryofjustice/frontend",
-  "description": "The MOJ Frontend contains the code you need to start building user interfaces for UK Ministry of Justice government services.",
-  "version": "0.0.15-alpha",
+  "name": "@sensecall/das-frontend-test",
+  "version": "0.0.4-alpha",
+  "description": "DAS Frontend Test.",
   "main": "all.js",
   "sass": "all.scss",
   "engines": {
     "node": ">= 4.2.0"
   },
-  "author": {
-    "name": "MOJ Design System Team",
-    "email": "design-system@digital.justice.gov.uk"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ministryofjustice/moj-frontend.git"
+    "url": "https://github.com/sensecall/das-frontend-test.git"
   },
   "bugs": {
-    "url": "https://github.com/ministryofjustice/moj-frontend/issues"
+    "url": "https://github.com/sensecall/das-frontend-test/issues"
   },
-  "homepage": "https://github.com/ministryofjustice/moj-frontend#readme",
-  "keywords": [
-    "moj",
-    "frontend",
-    "design system",
-    "template"
-  ],
+  "homepage": "https://github.com/sensecall/das-frontend-test#readme",
+  "author": "",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

@@ -1,4 +1,4 @@
-# Publishing MOJ Frontend
+# Publishing DAS Frontend
 
 1. Checkout **master** and pull latest changes.
 
@@ -38,7 +38,7 @@ This should be incremented based on [Semantic versioning](https://semver.org/) f
 
 12. Create a release on [Github](https://github.com/ministryofjustice/moj-frontend/releases/new)
   - enter the tag version
-  - set "MOJ Frontend release v[version-number]" as the title
+  - set "DAS Frontend release v[version-number]" as the title
   - add release notes from changelog
   - mark the release as a pre-release
 

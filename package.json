@@ -1,6 +1,6 @@
 {
-  "name": "@ministryofjustice/frontend",
-  "description": "The MOJ Frontend contains the code you need to start building user interfaces for UK Ministry of Justice government services.",
+  "name": "@sensecall/das-frontend-test",
+  "description": "DAS Frontend Test.",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
@@ -8,15 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ministryofjustice/moj-frontend.git"
+    "url": "git+https://github.com/sensecall/das-frontend-test.git"
   },
-  "author": "Simon Whatley, Adam Silver, Gavin Wye, Matthew Solle",
+  "author": ".",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ministryofjustice/moj-frontend/issues"
-  },
-  "homepage": "https://github.com/ministryofjustice/moj-frontend#readme",
+  "homepage": "http://url",
   "dependencies": {
+    "@ministryofjustice/frontend": "0.0.15-alpha",
     "basic-auth": "^2.0.1",
     "body-parser": "^1.19.0",
     "browser-sync": "^2.26.7",
@@ -38,5 +36,14 @@
     "portscanner": "^2.2.0",
     "prompt": "^1.0.0",
     "require-dir": "^1.0.0"
+  },
+  "version": "0.0.1",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/sensecall/das-frontend-test/issues"
   }
 }

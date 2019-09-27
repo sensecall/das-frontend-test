@@ -8,7 +8,7 @@
 You will need to install the following code at the bottom of `server.js`, just above `module.exports = app;`
 
 ```
-// Add filters from MOJ Frontend
+// Add filters from DAS Frontend
 let mojFilters = require('./node_modules/@ministryofjustice/frontend/filters/all')();
 mojFilters = Object.assign(mojFilters);
 Object.keys(mojFilters).forEach(function (filterName) {

@@ -1,31 +1,31 @@
-# Ministry of Justice Frontend
+# Apprenticeship service Frontend
 
-MOJ Frontend contains the code you need to start building user interfaces for UK Ministry of Justice government services.
+DAS Frontend contains the code you need to start building user interfaces for UK Apprenticeship service government services.
 
-See live examples of MOJ Frontend components, and guidance on when to use them in your service, in the [MOJ Design System](https://moj-design-system.herokuapp.com/).
+See live examples of DAS Frontend components, and guidance on when to use them in your service, in the [MOJ Design System](https://moj-design-system.herokuapp.com/).
 
 ## Contact the team
 
-MOJ Frontend is maintained by the MOJ Design System team. If you need support email the [Design System team](mailto:design-system@digital.justice.gov.uk).
+DAS Frontend is maintained by the MOJ Design System team. If you need support email the [Design System team](mailto:design-system@digital.justice.gov.uk).
 
 ## Quick start
 
-We recommend [installing MOJ Frontend using node package manager (npm)](docs/installation/installing-with-npm.md).
+We recommend [installing DAS Frontend using node package manager (npm)](docs/installation/installing-with-npm.md).
 
 Once installed, you will be able to use the code from the examples in the [MOJ Design System](https://moj-design-system.herokuapp.com/) in your service.
 
 ## Browser support
 
-MOJ Frontend will allow you to build services that comply with the [guidance in the Service Manual][service-manual-browsers].
+DAS Frontend will allow you to build services that comply with the [guidance in the Service Manual][service-manual-browsers].
 
-If you are including MOJ Frontend as part of a stylesheet that you are generating in your application's build pipeline, you will need to [generate and
+If you are including DAS Frontend as part of a stylesheet that you are generating in your application's build pipeline, you will need to [generate and
 include a separate stylesheet in order to support Internet Explorer 8](docs/installation/supporting-internet-explorer-8.md).
 
 [service-manual-browsers]: https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices#browsers-to-test-in
 
 ## Assistive technology support
 
-MOJ Frontend will allow you to build services that comply with the [guidance in the Service Manual][service-manual-assistive-technologies].
+DAS Frontend will allow you to build services that comply with the [guidance in the Service Manual][service-manual-assistive-technologies].
 
 In addition, we test that all content is accessible with keyboard only.
 
@@ -46,7 +46,7 @@ https://accessibility.blog.gov.uk/2017/03/27/how-users-change-colours-on-website
 
 ## Contribution guidelines
 
-If you want to help us build MOJ Frontend, view our [contribution guidelines](CONTRIBUTING.md).
+If you want to help us build DAS Frontend, view our [contribution guidelines](CONTRIBUTING.md).
 
 ### Further reading
 
