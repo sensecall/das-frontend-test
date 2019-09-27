@@ -1,0 +1,43 @@
+{% extends "layouts/base.html" %}
+
+{% block body %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    {{ govukBackLink({
+      text: "Back",
+      href: "../"
+    }) }}
+
+    <h1 class="govuk-heading-xl">
+      <span class="govuk-caption-xl">Components</span> Account navigation
+    </h1>
+
+    {{ dasAccountNavigation({
+      title: "Lorem ipsum",
+      links:
+      [
+      {
+        href: "#",
+        text: "First item",
+        selected: true
+      },
+      {
+        href: "#",
+        text: "Second item"
+      },
+      {
+        href: "#",
+        text: "Third item"
+      },
+      {
+        href: "#",
+        text: "Fourth item"
+      }
+      ]
+    }) }}  
+  </div>
+
+</div>
+
+{% endblock %}

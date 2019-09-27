@@ -1,6 +1,6 @@
 {
   "name": "@sensecall/das-frontend-test",
-  "version": "0.0.4-alpha",
+  "version": "0.0.42-alpha",
   "description": "DAS Frontend Test.",
   "main": "all.js",
   "sass": "all.scss",

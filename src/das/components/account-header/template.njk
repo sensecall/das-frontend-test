@@ -4,15 +4,11 @@
 
         <nav class="das-account-header__navigation" id="user-nav">
             <ul class="das-account-header__navigation-list" role="menu">
+                {%- for link in params.links -%}
                 <li role="menuitem" class="das-account-header__navigation-list-item">
-                    <a href="#" class="das-account-header__navigation-link">Provider account</a>
+                    <a href="{{ link.href }}" class="das-account-header__navigation-link">{{link.text}}</a>
                 </li>
-                <li role="menuitem" class="das-account-header__navigation-list-item">
-                    <a href="#" class="das-account-header__navigation-link">Notification settings</a>
-                </li>
-                <li role="menuitem" class="das-account-header__navigation-list-item">
-                    <a href="#" class="das-account-header__navigation-link">Sign out</a>
-                </li>
+                {% endfor %}
             </ul>
         </nav>
     </div>

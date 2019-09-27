@@ -19,16 +19,43 @@
       Employer
     </h2>
     {{ dasAccountHeader({
+      classes: "govuk-!-margin-bottom-9",
       title: "Lorem ipsum",
-      type: "employer"
+      type: "employer",
+      links: [
+      {
+        text: "First item",
+        href: "#"
+      },
+      {
+        text: "Second item",
+        href: "#"
+      },
+      {
+        text: "Third item",
+        href: "#"
+      }]
     }) }}
 
-    <h2 class="govuk-heading-m govuk-!-margin-top-9">
+    <h2 class="govuk-heading-m">
       Provider
     </h2>
     {{ dasAccountHeader({
       title: "Lorem ipsum",
-      type: "provider"
+      type: "provider",
+      links: [
+      {
+        text: "First item",
+        href: "#"
+      },
+      {
+        text: "Second item",
+        href: "#"
+      },
+      {
+        text: "Third item",
+        href: "#"
+      }]
     }) }}
   
   </div>
